@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(black.jpg);
+    width: 90%;
+    margin: 0px auto;
+    background-size: cover;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template: 3fr 6fr 1fr / repeat(5, 1fr);
+    padding: 20px;
+    grid-gap: 25px;
+}
+.box {
+    border-radius: 10px;
+    display: grid;
+    align-content: space-between;
+    text-align: center;
+    font: bold 17px white;
+    font-family:Tahoma, sans-serif;
+    font-weight:bold;
+    letter-spacing: 1.2px;
+    color:white;  
+}
+p {height: 70px;
+    background-color: gray;
+    border-radius: 10px 10px 0 0;
+    padding: 7%;
+    opacity: 0.8; 
+}
+h4 {
+    background-color: gray;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+    opacity: 0.8; 
+}
+h2{background:white;
+    color: darkred;
+    padding: 13px 25px ;
+    border-radius: 10px;
+}
+.box1 {
+    background-image: url(logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-column: 1 / 6;
+    opacity: 0.5;
+    background-position: center;
+}
+.box2 {
+    background-image: url(child.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box3 {
+    background-image: url(gebe1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box4 {
+    background-image: url(inci.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box5 {
+    background-image: url(faceyoga.jpg);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;}
+.box6 {
+    background-image: url(siri.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box7 {
+    background-color: grey;
+    grid-column: 1 / 6;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+    opacity: 0.5;
+}
